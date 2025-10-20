@@ -1,4 +1,4 @@
-# debezium-dag-docs
+# Debezium Airflow dag doc
 Даг для репликации таблиц из исходных баз данных в Clickhouse
 ## Table of contents
 
