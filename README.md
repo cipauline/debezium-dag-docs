@@ -57,8 +57,8 @@
 16. Replication lag wait
 17. Initial load  
 Загрузка существующих данных из source бд в Сlickhouse в таблицу \_debezium с помощью табличной функции
-18. Создание финального view from \_debezium
-19. Удаление \_debezium_old таблицы
+18. Создание финального view from `\_debezium`
+19. Удаление `\_debezium_old` таблицы
 ## Tables
 
 Даг создает 4 таблицы через которые проходят данные:
