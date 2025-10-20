@@ -66,7 +66,7 @@
 
 ### \_changes
 **type**: Table  
-**engine**: Null  
+**engine**: `Null`  
 В первую очередь данные попадают в таблицу `\_changes`, это триггерит срабатывание view `\_debezium_mv`, в самой таблице `\_changes` данные не хранятся.  
 В таблице есть поля `before_`, `after_` - состояния строк до/после операции, и поле `op` - тип операции.
 При наличии новых колонок в исходной таблице метод `_build_alter_audit_changes_table_clause` сгенерирует `ALTER TABLE ... ADD COLUMN ...`
